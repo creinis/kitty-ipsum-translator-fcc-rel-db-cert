@@ -11,3 +11,8 @@ for file in in/*.txt; do
 
     echo "Number of lines:" >> "$output_info"
     cat "$file" | wc -l >> "$output_info"
+
+    echo -e "\nNumber of words:" >> "$output_info"
+    wc -w < "$file" >> "$output_info"
+
+    
