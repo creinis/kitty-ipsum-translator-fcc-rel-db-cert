@@ -15,4 +15,7 @@ for file in in/*.txt; do
     echo -e "\nNumber of words:" >> "$output_info"
     wc -w < "$file" >> "$output_info"
 
+    echo -e "\nNumber of characters:" >> "$output_info"
+    wc -m < "$file" >> "$output_info"
+
     
