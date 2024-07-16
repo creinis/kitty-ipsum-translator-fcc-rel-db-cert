@@ -2,9 +2,10 @@
 
 ###### Technologies:
 <p align="center">
-   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bash-colored.svg" width="75" height="75" alt="Bash" style="margin: 10px 15px 0 15px;" />
-   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="75" height="75" alt="Linux" style="margin: 10px 15px 0 15px;" />
+<img src="https://img.icons8.com/color/75/000000/console.png" width="75" height="75" alt="Bash" style="margin: 10px 15px 0 15px;" />
 </p>
+
+- **Bash:** Used for scripting to create a questionnaire.
 
 ## Try it!
 
