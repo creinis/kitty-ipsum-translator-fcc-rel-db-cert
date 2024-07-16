@@ -18,4 +18,7 @@ for file in in/*.txt; do
     echo -e "\nNumber of characters:" >> "$output_info"
     wc -m < "$file" >> "$output_info"
 
+    echo -e "\nNumber of times meow or meowzer appears:" >> "$output_info"
+    grep -o meow[a-z]*  "$file" | wc -l >> "$output_info"
+
     
