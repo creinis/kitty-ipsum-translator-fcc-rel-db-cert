@@ -27,4 +27,7 @@ for file in in/*.txt; do
     echo -e "\nNumber of times cat, cats, or catnip appears:" >> "$output_info"
     grep -o cat[a-z]*  "$file" | wc -l >> "$output_info"
 
-    
+    echo -e "\nLines that they appear on:" >> "$output_info"
+    grep -n 'cat[a-z]*'  "$file" | sed -E 's/([0-9]+).*/\1/' >> "$output_info"
+ 
+ 
