@@ -30,4 +30,5 @@ for file in in/*.txt; do
     echo -e "\nLines that they appear on:" >> "$output_info"
     grep -n 'cat[a-z]*'  "$file" | sed -E 's/([0-9]+).*/\1/' >> "$output_info"
  
- 
+    echo -e "\n" >> "$output_info"
+done
